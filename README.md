@@ -44,3 +44,6 @@ setIconImage(icon);을 통해 현재 프레임의 아이콘으로 설정하게 �
 GetContentPane()setbackground배경색 color를 하얀색으로 바꾸고 버튼을 회색으로 칠했습니다.
 ![계산기에 최종적으로 C버튼 추가](https://github.com/user-attachments/assets/29beda10-f6e3-46c8-8eae-ab095b24bc29)
 cal8에는지우개 C버튼을 추가했습니다. 택스트필드에있는 내용을 지울수 있습니다.
+![스크린샷 2024-10-27 215214](https://github.com/user-attachments/assets/9631ac1d-ed0e-4250-98a3-2377ecfc5759)
+cal9에는 keyListener를 추가했습니다 if else문에 char c= e.getKeyChar();-> 문자를 입력하는 구문을 썻습니다.
+keytyped구문을 썻고 e.consume();을 써서 한영글자를 제한하는 코드를 사용했습니다 
