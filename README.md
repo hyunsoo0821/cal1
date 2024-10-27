@@ -24,6 +24,7 @@ cal4에는 ![스크린샷 2024-10-27 172240](https://github.com/user-attachments
 ![스크린샷 2024-10-27 172333](https://github.com/user-attachments/assets/bfdac423-493b-469d-9722-8e2ea6e82950)
 "="버튼 클릭시 연산자 메소드 를 호출하고 연산자 버튼 클릭시 현재 입력된 숫자를 저장하게 했습니다.
 cal5에는 ![cal5메뉴이벤트 넣은거](https://github.com/user-attachments/assets/95dcee47-2015-4e58-b533-f1aca1a7f605)
+![메뉴바 열기](https://github.com/user-attachments/assets/9dccb8ee-bc93-49ac-b54d-071fe942aacc)
 메뉴 이벤트를 추가했으며 "새파일",'파일 저장하기", "종료"를 추가했습니다.
 cal6에는 ![cal6 로컬파일 저장하기](https://github.com/user-attachments/assets/f1ee0801-9e03-4535-9778-266482b56638)
 파일 내컴퓨터 파일저장하기 기능을 추가했습니다. 여기에서 GUI애플리케이션 메뉴바를 설정하고 파일관련기능을 구현했습니다.
