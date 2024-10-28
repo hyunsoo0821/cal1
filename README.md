@@ -1,5 +1,5 @@
 ![cal1 계산기](https://github.com/user-attachments/assets/7b9677b7-b991-4f2a-a8a8-00107a2be21f)
-위 사진은 처음 책646쪽을 보고 계산기를 만들었으며 
+#위 사진은 처음 책646쪽을 보고 계산기를 만들었으며 
 ![계산기 설명 1](https://github.com/user-attachments/assets/1209f519-baa1-4f55-a0d4-cdf4facd7346)
 
 위사진 처럼 패널을 3개로 나누고 북쪽, 중앙으로 나누었습니다
