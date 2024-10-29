@@ -327,6 +327,39 @@ void showCenter() {
     }
 > cal9에는 keyListener를 추가했습니다
 > >if else문에 char c= e.getKeyChar();-> 문자를 입력하는 구문을 썻습니다.
-> > >keytyped구문을 썻고 e.consume();을 써서 한영글자를 제한하는 코드를 사용했습니다 
-# 마지막 최종 계산기 사진 
+> > >keytyped구문을 썻고 e.consume();을 써서 한영글자를 제한하는 코드를 사용했습니다
+# 계산기 사진
 ![계산기에 최종적으로 C버튼 추가](https://github.com/user-attachments/assets/0c352faf-3f1a-4f03-9b84-98380660253b)
+#cal10
+
+void showCenter() {
+        JPanel panel = new JPanel();
+        panel.setBackground(Color.WHITE);
+        panel.setLayout(new FlowLayout());
+
+        Dimension buttonSize = new Dimension(100, 30);
+
+        JButton clearButton = new JButton("C");
+        clearButton.setPreferredSize(buttonSize);
+        clearButton.setBackground(Color.GRAY);
+        clearButton.addActionListener(e -> t1.setText(""));
+        panel.add(clearButton);
+
+        JButton backspaceButton = new JButton("Backspace");
+        backspaceButton.setPreferredSize(buttonSize);
+        backspaceButton.setBackground(Color.GRAY);
+        backspaceButton.addActionListener(e -> {
+            String text = t1.getText();
+            if (!text.isEmpty()) {
+                t1.setText(text.substring(0, text.length() - 1));
+            }
+        });
+        panel.add(backspaceButton);
+
+        add(panel, BorderLayout.CENTER);
+    }
+>Backspace 버튼을 추가
+>  >Backspace 이벤트 기능 추가
+>  >  >택스트 필드에 Backspace버튼을 누르면 숫자가 하나사라지게했습니다(Backspace 버튼 액션리스너 사용)
+# 최종 계산기 사진
+![계산기 최종코드](https://github.com/user-attachments/assets/541dd55a-466d-4e0d-a065-f8f1bc0dddae)
