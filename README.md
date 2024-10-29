@@ -330,9 +330,9 @@ void showCenter() {
 > > >keytyped구문을 썻고 e.consume();을 써서 한영글자를 제한하는 코드를 사용했습니다
 # 계산기 사진
 ![계산기에 최종적으로 C버튼 추가](https://github.com/user-attachments/assets/0c352faf-3f1a-4f03-9b84-98380660253b)
-#cal10
+# cal10
 
-void showCenter() {
+        void showCenter() {
         JPanel panel = new JPanel();
         panel.setBackground(Color.WHITE);
         panel.setLayout(new FlowLayout());
